@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <form onsubmit="expenseTrack(event)">
+
+            <label for="a1">Choose expenseamount: </label>
+            <input type="number" name="amount" id="a1">
+
+            <label for="e1">Choose description: </label>
+            <input type="text" name="expence" id="e1">
+
+            <label for="category">Choose a category:</label>
+            <select id="category">
+                <option>Fuel</option>
+                <option>Movie</option>
+                <option>Electricity</option>
+                <option>Food</option>
+            </select>
+
+            <button type="submit">Add Expense</button>
+            
+        </form>
+
+        <ul id="display_items"></ul>
+
+        <script src="index.js"></script>
+    </body>
+</html>
